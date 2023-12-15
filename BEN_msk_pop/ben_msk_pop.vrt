@@ -1,0 +1,15 @@
+<VRTDataset rasterXSize="258" rasterYSize="500">
+<GeoTransform>0.65, 0.0127261, 0, 12.51667, 0, -0.01273333</GeoTransform>
+<SRS>+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0</SRS>
+	<VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+		<Description>ben_msk_pop</Description>
+		<SourceFilename relativetoVRT="1">ben_msk_pop.gri</SourceFilename>
+		<ImageOffset>0</ImageOffset>
+		<PixelOffset>2</PixelOffset>
+		<LineOffset>516</LineOffset>
+		<ByteOrder>LSB</ByteOrder>
+		<NoDataValue>-9999</NoDataValue>
+		<Offset>0</Offset>
+		<Scale>1</Scale>
+	</VRTRasterBand>
+</VRTDataset>
